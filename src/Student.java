@@ -3,7 +3,8 @@
  * @author nedimomerovic
  * for future - needs to contain more information maybe a parent class Person
  */
-public class Student {
+public class Student extends Person
+{
 	String name;
 	String surname;
 	int studentId;
